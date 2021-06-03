@@ -1,0 +1,19 @@
+{
+  "name": "commandlineapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "search": "./bin/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "request": "^2.88.2",
+    "yargs": "^13.2.4"
+  }
+}
